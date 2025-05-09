@@ -396,6 +396,91 @@
     max-width: 100%;
   }
 
+  .site-footer {
+    background-color: #111;
+    color: #fff;
+    padding: 40px 60px;
+    font-family: sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 60px;
+  }
+  
+  .footer-brand {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .footer-brand h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    margin-right: 12px;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #f0c040;
+  }
+  
+  .footer-columns {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-col h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-col p {
+    margin: 4px 0;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .footer-col p:hover {
+    text-decoration: underline;
+  }
+  
+  
+  /* Responsive for small screens */
+  @media (max-width: 768px) {
+    .footer-container {
+      align-items: flex-start;
+    }
+  
+    .footer-columns {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .footer-brand {
+      text-align: left;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
 
 /*sign up page*/
 
